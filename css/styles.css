@@ -353,8 +353,31 @@ img {
 }
 
 .service-icon {
-    font-size: 48px;
-    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    transition: var(--transition-normal);
+}
+
+.service-icon svg {
+    width: 36px;
+    height: 36px;
+    color: var(--text-color);
+    transition: var(--transition-normal);
+}
+
+.service-card:hover .service-icon {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.1);
+}
+
+.service-card:hover .service-icon svg {
+    transform: scale(1.1);
 }
 
 .service-card h3 {
