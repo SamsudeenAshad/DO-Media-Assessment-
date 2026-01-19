@@ -764,18 +764,22 @@ img {
     }
     
     .service-icon {
-        font-size: 36px;
+        width: 60px;
+        height: 60px;
     }
     
+    .service-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
     .service-card h3 {
         font-size: 18px;
     }
-    
+
     .service-card p {
         font-size: 14px;
-    }
-    
-    .testimonial-text {
+    }    .testimonial-text {
         font-size: 15px;
     }
     
